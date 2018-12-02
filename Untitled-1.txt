@@ -1,0 +1,4 @@
+pscp -scp -r -i td-key. riot-express-todo-list ubuntu@ec2-13-59-22-134.us-east-2.compute.amazonaws.com:~/
+
+
+scp -r -i td-key.pem . ubuntu@ec2-13-59-22-134.us-east-2.compute.amazonaws.com:riot-express-todo-list
